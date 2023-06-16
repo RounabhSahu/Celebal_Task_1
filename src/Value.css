@@ -1,0 +1,119 @@
+.value-container{
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    margin: 160px auto;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+    height: 1080px;
+    /*height: 100%;*/
+    /*flex-shrink: 0;*/
+}
+.value-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    width: 80%;
+    margin: 20px auto;
+    /*flex-wrap: nowrap;*/
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 50%;
+    height: 20%;
+    /*flex-shrink: 0;*/
+    /*height:20%;*/
+    /*overflow: hidden;*/
+}
+.value-items-container:nth-child(2){
+    flex-direction: row-reverse;
+    margin-top: 50px;
+
+}
+.value-text-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45% !important;
+    /*justify-content: space-evenly;*/
+    /*align-items: stretch;*/
+    /*align-content: space-evenly;*/
+    height: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-wrap: nowrap;
+    margin:0;
+
+}
+.value-text-heading{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+
+    /* or 119% */
+
+    /* Text/Title */
+    color: #2E2E2E;
+}
+.value-text-desc{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    /* Text/Body */
+    color: #808080;
+}
+.value-text-desc:nth-child(2){
+    margin-top: 16%;
+    margin-bottom: 16%;
+}
+.value-text-button{
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    /*padding: 12px;*/
+    gap: 10px;
+    background: #F84646;
+    border-radius: 8px;
+    width: 160px !important;
+    height: 48px    !important;
+    flex-shrink: 0;
+    flex-grow: 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* identical to box height, or 171% */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.value-image{
+    /*flex-basis: 40% !important;*/
+
+    margin:0 ;
+    max-height: 100%;
+    max-width: 40%;
+    /*width: 42%;*/
+    aspect-ratio: 1.05;
+    border-radius: 8px;
+    object-fit: cover;
+    /*transform: scaleX(1.5);*/
+    /*padding:10px;*/
+}

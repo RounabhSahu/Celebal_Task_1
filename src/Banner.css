@@ -1,0 +1,202 @@
+.banner{
+    margin:0 ;
+    padding:0;
+    background-image: url('https://s3-alpha-sig.figma.com/img/2b2f/8787/985cabb6920eaaeecfea44bd6b5ef5d8?Expires=1687737600&Signature=KlVjd0RFcHuzl-OJZLuf0dSYANuH2-iNgjFiF6fKW4Y2pe6mCAZVa7W5Q5sacCNQSr2Xpa5V~B-Zzgq0mOqVoKBVm-3IuTcQNEuuBA1YEipzWsK19DE8gVwxHTo2ub1LnNdD99svM5V6RSVNq5~xjllIl0wQFDjtWV3t-9nbC1mZhBZVskEUifzXD5fXFG0KbD7fs2ZIVO7llCVUMuoMt6b049UE-xK5ZE0cVmFbZ7a1LRaz6Ev79hy3SBzFET6BkgAklPexOp3NpM6kVWlgzxgiBXfBxcaKOtUsWL-LeQdR84f-re3OBbX2xiLX15NZ4LW5RdpJssySwKz3lUVHnA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-size: 100% 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    position:absolute;
+    top:5%;
+    left:43%;
+
+    display:flex;
+    flex-direction: row;
+    width:fit-content;
+    justify-content: center;
+    justify-items: center;
+    align-content:center;
+    align-items: center;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    /*position: absolute;*/
+    width: 603px;
+    height: 20px;
+    /*left: 42%;*/
+    /*top: 6%;*/
+
+
+}
+.nav-links{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.nav-special{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px 20px;*/
+    /*gap: 10px;*/
+
+    /*position: absolute;*/
+    margin-left:20px;
+    width: 91px;
+    height: 40px;
+    /*left: 84%;*/
+    /*top: 35px;*/
+
+    background: #F84646;
+    border-radius: 5px;
+}
+.banner-container{
+    /*margin-top:60%;*/
+    top:25%;
+    left: 10%;
+    /*margin-left:145px;*/
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.banner-main-text{
+    /*position: absolute;*/
+    /*width: 665px;*/
+    /*height: 164px;*/
+    /*left: 122px;*/
+    /*top: 200px;*/
+
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+
+    /* or 128% */
+
+    color: #000000;
+}
+.banner-sub-text{
+    /*position: absolute;*/
+    /*width: 650px;*/
+    /*height: 99px;*/
+    /*left: 122px;*/
+    /*top: 384px;*/
+    padding:20px 0;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    margin:0;
+
+    /* or 180% */
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+.banner-mail-input-button-container{
+    /*position: relative;*/
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    /*flex-shrink: 0;*/
+    /*flex-grow: 0;*/
+
+    height: 73px;
+    /*padding: 40px;*/
+}
+.banner-mail-input{
+
+    /*position: absolute;*/
+    /*width: 502px;*/
+    /*height: 73px;*/
+    /*left: 122px;*/
+    /*top: 533px;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 80%;
+    height: 73px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 32px;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+}
+
+.banner-mail-input::placeholder{
+    color:#00000066;
+    font-size: 20px;
+
+}
+.banner-mail-input-button{
+
+    /*position: absolute;*/
+
+    /*left: 482px;*/
+    /*top: 539px;*/
+    /*position: absolute;*/
+    /*top: 8%;*/
+    /*left: 61.5%;*/
+    transform-origin: center;
+    width: 136px;
+    height: 61px;
+    margin-left: -148px;
+    margin-top: auto;
+    margin-bottom: auto;
+    /*margin-left: -148px;*/
+    background: #F84646;
+    border-radius: 8px;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+    /*padding-left:50%;*/
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+
+    /* identical to box height, or 225% */
+    letter-spacing: 0.2px;
+    /*border: 1px solid white;*/
+    -webkit-appearance: none;
+    outline: 1px solid white;
+    color: #FFFFFF;
+}
+

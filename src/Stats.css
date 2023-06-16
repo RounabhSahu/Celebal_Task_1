@@ -1,0 +1,98 @@
+.stats-container{
+    width: 100%;
+    min-height: 376px;
+
+    background-image: linear-gradient(rgba(248, 70, 70, 1), rgba(248, 70, 70, 1)), url('https://s3-alpha-sig.figma.com/img/94b3/3f10/9c95c18933a375fb8c7f5e24ccb04f62?Expires=1687737600&Signature=Pl24iBx2bqvlPOSQpcZWfWqCotzZQYFzqC9YOs6nmR-0Nmv52HS5eT2D0EwFFcEu~rt5VcNns3T6x-pTPpZUq-xPSEZ1BJrICBohOrJxURfa5Q7w1JjXPhBLHGy3xzyAt-1Fjp-Lq-6lXbB1LBrmy0~VMwxqoBRV7HqAkxgvkG8WdTiMCGOA0foJaqBvSHbEhQacEOFllHbKfpgRnhSFoiTcnBKWqwvLB8-EbYuwcJDVai9cWsRjcwbcbbegnR-jDCoYcYNqiRoSeUq0SrMN97kGu2rnY-Tq5t5TG2gv7Yuzr2LQKqbWeQn3u2D0p3nSBhl2R1wwPSM0hEZqS9G6Fg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-blend-mode: lighten;
+    position: relative;
+    /*mix-blend-mode: darken;*/
+    background-position:center center;
+    background-size: cover;
+
+
+}
+
+.stats-head-container{
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.stats-heading{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+
+    /* identical to box height, or 133% */
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Default / White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.stats-subheading{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    /* identical to box height, or 178% */
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Default / White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.stats-step-container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+    width: 80%;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+.stats-step-img{
+aspect-ratio: 1;
+
+}
+.stats-step-desc{
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    /*flex-basis: 20%;*/
+    /* or 172% */
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,112 @@
+.feature-container{
+    min-height: 1000px;
+    height:fit-content;
+    color:black;
+    position:relative;
+
+
+}
+.feature-head-container{
+
+    position: absolute;
+    /*width: 428px;*/
+    /*height: 56px;*/
+    /*left: 506px;*/
+    top: 8%;
+    width: 70%;
+    left:50%;
+    transform: translateX(-50%);
+
+
+    /*font-family: 'Manrope';*/
+    /*font-style: normal;*/
+    /*font-weight: 800;*/
+    /*font-size: 36px;*/
+    /*line-height: 49px;*/
+    /*text-align: center;*/
+
+    /*color: #000000;*/
+}
+.feature-head-container-heading{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #000000;
+    margin-bottom: 30px;
+}
+.feature-head-container-subheading{
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+
+    /* or 165% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+.features-tiles-container{
+    position: absolute;
+    top: 28%;
+    left:50%;
+    transform: translateX(-50%);
+    display:flex;
+    flex-wrap: wrap;
+    width:80%;
+    height:70%;
+    /*margin-bottom:200px;*/
+    /*border:2px solid red;*/
+    justify-content: space-around;
+    /*justify-items: center;*/
+    align-items: center;
+    /*align-content:center;*/
+
+}
+.features-tiles{
+    min-width:300px; ;
+    width:30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-content: center;*/
+    /*justify-items: center;*/
+    align-items: center;
+    /*border:2px solid red;*/
+    /*margin:20px;*/
+
+}
+.features-tiles-heading{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.features-tiles-desc{
+
+    width: 80%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    /* or 156% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
